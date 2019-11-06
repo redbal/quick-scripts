@@ -8,6 +8,8 @@ Latest News sections into a string output.
 No error checking, not parameter checking...just a quick hack to satisfy
 a need.
 
+
+
 The hardest part was finding the particular element in the page to parse.
 """
 
