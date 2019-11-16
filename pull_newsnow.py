@@ -22,7 +22,7 @@ RESP = requests.get(URL)
 
 if RESP.status_code == 200:
     DOC = lxml.html.fromstring(RESP.content)
-    DATA = DOC.get_element_by_id("pwrap")
+    DATA = DOC.get_element_by_id("nn_container")# central_tt_wrap")
     for z in range(0, 1):
         b = DATA.find_class('newsfeed')[z].text_content()
         c = b.encode('utf-8')
