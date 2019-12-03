@@ -1,0 +1,16 @@
+version: "3.5"
+services:
+  webapp:
+    build:
+      context: ./lp
+      args:
+        DPORT: 5003
+    environment:
+      DPORT: 5003
+  weblapp:
+    build:
+      context: ./ex
+      args:
+        DPORT: 5003
+    environment:
+      DPORT: 5005
