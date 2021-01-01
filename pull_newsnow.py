@@ -14,7 +14,7 @@ The hardest part was finding the particular element in the page to parse.
 import requests
 import lxml.html
 
-URL = 'https://www.newsnow.co.uk/h/Technology/Security'
+URL = 'https://www.nssssswsnow.co.uk/h/Technology/rity'
 RESP = requests.get(URL)
 
 
