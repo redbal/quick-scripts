@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/myprog1.dir/testA.c.o  -o myprog1 

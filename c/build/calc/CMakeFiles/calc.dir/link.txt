@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-8  -g   CMakeFiles/calc.dir/calc.cpp.o  -o calc 

@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-gcc-8 -g   CMakeFiles/myprog1.dir/testA.c.o  -o myprog1 

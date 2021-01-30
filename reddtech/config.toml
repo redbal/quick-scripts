@@ -1,0 +1,4 @@
+baseURL = "https://reddtech.us/"
+languageCode = "en-us"
+title = "ReddTech"
+theme = "minimal"

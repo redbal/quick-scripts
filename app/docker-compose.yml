@@ -3,14 +3,14 @@ services:
   webapp:
     build:
       context: ./lp
-      args:
-        DPORT: 5003
+    ports:
+    - "5003:5003"
     environment:
       DPORT: 5003
   weblapp:
     build:
       context: ./ex
-      args:
-        DPORT: 5003
+    ports:
+    - "5005:5005"
     environment:
       DPORT: 5005

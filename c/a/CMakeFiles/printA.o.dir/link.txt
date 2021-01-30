@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/printA.o.dir/printA.s.o  -o printA.o 

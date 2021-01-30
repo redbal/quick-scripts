@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "/home/credd/code"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ptrace.h": "c"
+		},
+		"git.ignoreLimitWarning": true
+	}
+}

@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/credd/code/c/build",
+  "command": "/bin/x86_64-linux-gnu-gcc-8   -g   -o CMakeFiles/myprog1.dir/testA.c.o   -c /home/credd/code/c/testA.c",
+  "file": "/home/credd/code/c/testA.c"
+},
+{
+  "directory": "/home/credd/code/c/build/sub",
+  "command": "/bin/x86_64-linux-gnu-gcc-8   -g   -o CMakeFiles/myprog2.dir/fork.c.o   -c /home/credd/code/c/sub/fork.c",
+  "file": "/home/credd/code/c/sub/fork.c"
+},
+{
+  "directory": "/home/credd/code/c/build/calc",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/calc.dir/calc.cpp.o -c /home/credd/code/c/calc/calc.cpp",
+  "file": "/home/credd/code/c/calc/calc.cpp"
+},
+{
+  "directory": "/home/credd/code/c/build/arm64",
+  "command": "/home/credd/arm64/bin/aarch64-linux-android-gcc   -g   -o CMakeFiles/hello_arm.dir/hello_world.c.o   -c /home/credd/code/c/arm64/hello_world.c",
+  "file": "/home/credd/code/c/arm64/hello_world.c"
+}
+]

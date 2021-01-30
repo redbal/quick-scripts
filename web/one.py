@@ -27,7 +27,6 @@ class MyServer(BaseHTTPRequestHandler):
 
 		#import pdb; pdb.set_trace()
 
-
 myServer = HTTPServer((hostName, hostPort), MyServer)
 print(time.asctime(), "Server Starts - %s:%s" % (hostName, hostPort))
 

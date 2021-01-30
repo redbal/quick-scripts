@@ -1,0 +1,4 @@
+/home/credd/code/c/bin/myprog1
+/home/credd/code/c/sub/bin/myprog2
+/home/credd/code/c/calc/bin/calc
+/home/credd/code/c/arm64/bin/hello_arm

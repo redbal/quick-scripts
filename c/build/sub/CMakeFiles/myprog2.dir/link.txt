@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-gcc-8 -g   CMakeFiles/myprog2.dir/fork.c.o  -o myprog2 
