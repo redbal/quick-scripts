@@ -1,0 +1,19 @@
+from SCons.Environment import Environment
+
+client = Environment(CXXFLAGS = ['-std=c++17', '-fPIE',
+                                 '-Iinclude'],
+                     LINKFLAGS = ['-Linclude',
+                                  '-Lssl/.libs',
+                                  '-Ltls/.libs',
+                                  '-Lcrypto/.libs',
+                                  '-lssl', '-ltls', '-lcrypto'])
+
+client.Program(target='client', source=['client.cpp', 
+                                        'tls_socket.cpp',
+                                        'ssl/.libs/libssl.a',
+                                        'tls/.libs/libtls.a'])
+  
+client.Program(target='client2', source=['main.cpp', 
+                                        'http.cpp',
+                                        'tls/.libs/libtls.a',
+                                        'crypto/.libs/libcrypto.a'])

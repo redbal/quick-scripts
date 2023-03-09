@@ -1,0 +1,199 @@
+Layer TLS:
+        TLSv1 Record Layer: Handshake Protocol: Client Hello
+        Content Type: Handshake (22)
+        Version: TLS 1.0 (0x0301)
+        Length: 512
+        Handshake Protocol: Client Hello
+        Handshake Type: Client Hello (1)
+        Length: 508
+        Version: TLS 1.2 (0x0303)
+        Random: 550c1d1d87fcc3629a00e35fe972e1a4a7a389b3bda11d25da12509d019b0f22
+        GMT Unix Time: Mar 20, 2015 09:14:05.000000000 EDT
+        Random Bytes: 87fcc3629a00e35fe972e1a4a7a389b3bda11d25da12509d019b0f22
+        Session ID Length: 32
+        Session ID: 57b9a4109f5b14333167688c07aa7c688ce883f387c8a5cbc487d34ea87f85ae
+        Cipher Suites Length: 86
+        Cipher Suites (43 suites)
+        Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+        Compression Methods Length: 1
+        Compression Methods (1 method)
+        Compression Method: null (0)
+        Extensions Length: 349
+        Extension: server_name (len=14)
+        Type: server_name (0)
+        Length: 14
+        Server Name list length: 12
+        Server Name Type: host_name (0)
+        Server Name length: 9
+        Server Name: localhost
+        EC point formats Length: 3
+        Elliptic curves point formats (3)
+        EC point format: uncompressed (0)
+        Supported Groups List Length: 10
+        Supported Groups (5 groups)
+        Supported Group: x25519 (0x001d)
+        ALPN Extension Length: 9
+        ALPN Protocol
+        ALPN string length: 8
+        ALPN Next Protocol: http/1.1
+        Signature Hash Algorithms Length: 40
+        Signature Hash Algorithms (20 algorithms)
+        Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+        Signature Hash Algorithm Hash: SHA256 (4)
+        Signature Hash Algorithm Signature: ECDSA (3)
+        Supported Versions length: 4
+        Supported Version: TLS 1.3 (0x0304)
+        PSK Key Exchange Modes Length: 1
+        PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+        Client Key Share Length: 36
+        Group: x25519 (29)
+        Key Exchange Length: 32
+        Key Exchange: 9e7eae40ddbdf587d5f96c80241d1294638c654de9d76a518c40e2fe75f35761
+        Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+        JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+        JA3: 8d9f7747675e24454cd9b7ed35c58707
+        Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+        Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+        Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+        Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+        Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+        Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+        Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+        Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+        Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+        Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+        Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+        Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+        Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+        Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+        Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+        Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+        Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+        Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+        Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+        Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+        Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+        Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+        Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+        Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+        Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+        Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+        Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+        Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+        Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+        Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+        Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+        Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+        Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+        Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+        Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+        Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+        Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+        Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+        Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+        Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+        Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+        Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+        Server Name Indication extension
+        Extension: ec_point_formats (len=4)
+        Extension: supported_groups (len=12)
+        Extension: application_layer_protocol_negotiation (len=11)
+        Extension: encrypt_then_mac (len=0)
+        Extension: extended_master_secret (len=0)
+        Extension: post_handshake_auth (len=0)
+        Extension: signature_algorithms (len=42)
+        Extension: supported_versions (len=5)
+        Extension: psk_key_exchange_modes (len=2)
+        Extension: key_share (len=38)
+        Key Share extension
+        Key Share Entry: Group: x25519, Key Exchange length: 32
+        Extension: padding (len=173)
+        Type: ec_point_formats (11)
+        Type: supported_groups (10)
+        Type: application_layer_protocol_negotiation (16)
+        Type: encrypt_then_mac (22)
+        Type: extended_master_secret (23)
+        Type: post_handshake_auth (49)
+        Type: signature_algorithms (13)
+        Type: supported_versions (43)
+        Type: psk_key_exchange_modes (45)
+        Type: key_share (51)
+        Type: padding (21)
+        Length: 4
+        Length: 12
+        Length: 11
+        Length: 0
+        Length: 0
+        Length: 0
+        Length: 42
+        Length: 5
+        Length: 2
+        Length: 38
+        Length: 173
+        EC point format: ansiX962_compressed_prime (1)
+        EC point format: ansiX962_compressed_char2 (2)
+        Supported Group: secp256r1 (0x0017)
+        Supported Group: x448 (0x001e)
+        Supported Group: secp521r1 (0x0019)
+        Supported Group: secp384r1 (0x0018)
+        Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+        Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+        Signature Algorithm: ed25519 (0x0807)
+        Signature Algorithm: ed448 (0x0808)
+        Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+        Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+        Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+        Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+        Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+        Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+        Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+        Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+        Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+        Signature Algorithm: SHA224 ECDSA (0x0303)
+        Signature Algorithm: SHA224 RSA (0x0301)
+        Signature Algorithm: SHA224 DSA (0x0302)
+        Signature Algorithm: SHA256 DSA (0x0402)
+        Signature Algorithm: SHA384 DSA (0x0502)
+        Signature Algorithm: SHA512 DSA (0x0602)
+        Signature Hash Algorithm Hash: SHA384 (5)
+        Signature Hash Algorithm Hash: SHA512 (6)
+        Signature Hash Algorithm Hash: Unknown (8)
+        Signature Hash Algorithm Hash: Unknown (8)
+        Signature Hash Algorithm Hash: Unknown (8)
+        Signature Hash Algorithm Hash: Unknown (8)
+        Signature Hash Algorithm Hash: Unknown (8)
+        Signature Hash Algorithm Hash: Unknown (8)
+        Signature Hash Algorithm Hash: Unknown (8)
+        Signature Hash Algorithm Hash: Unknown (8)
+        Signature Hash Algorithm Hash: SHA256 (4)
+        Signature Hash Algorithm Hash: SHA384 (5)
+        Signature Hash Algorithm Hash: SHA512 (6)
+        Signature Hash Algorithm Hash: SHA224 (3)
+        Signature Hash Algorithm Hash: SHA224 (3)
+        Signature Hash Algorithm Hash: SHA224 (3)
+        Signature Hash Algorithm Hash: SHA256 (4)
+        Signature Hash Algorithm Hash: SHA384 (5)
+        Signature Hash Algorithm Hash: SHA512 (6)
+        Signature Hash Algorithm Signature: ECDSA (3)
+        Signature Hash Algorithm Signature: ECDSA (3)
+        Signature Hash Algorithm Signature: Unknown (7)
+        Signature Hash Algorithm Signature: Unknown (8)
+        Signature Hash Algorithm Signature: Unknown (9)
+        Signature Hash Algorithm Signature: Unknown (10)
+        Signature Hash Algorithm Signature: Unknown (11)
+        Signature Hash Algorithm Signature: SM2 (4)
+        Signature Hash Algorithm Signature: Unknown (5)
+        Signature Hash Algorithm Signature: Unknown (6)
+        Signature Hash Algorithm Signature: RSA (1)
+        Signature Hash Algorithm Signature: RSA (1)
+        Signature Hash Algorithm Signature: RSA (1)
+        Signature Hash Algorithm Signature: ECDSA (3)
+        Signature Hash Algorithm Signature: RSA (1)
+        Signature Hash Algorithm Signature: DSA (2)
+        Signature Hash Algorithm Signature: DSA (2)
+        Signature Hash Algorithm Signature: DSA (2)
+        Signature Hash Algorithm Signature: DSA (2)
+        Supported Version: TLS 1.2 (0x0303)
+
+JA3: 8d9f7747675e24454cd9b7ed35c58707
+JA3 FULL: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308-61-60-53-47-255,0-11-10-16-22-23-49-13-43-45-51-21,29-23-30-25-24,0-1-2
