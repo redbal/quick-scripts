@@ -1,0 +1,4697 @@
+pcap data 
+ADH
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using ephemeral DH for key exchange without doing any server authentication. Equivalent to DH+aNULL
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher ADH
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 26
+handshake_ciphersuites: Cipher Suites (13 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 103
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 99
+	Version: TLS 1.2 (0x0303)
+	Random: dbdde8e4382f4c919add6275bc8b77b32e0ee07d33ca5df06a9ceb9f8bfa8cea
+	GMT Unix Time: Nov 21, 2086 16:43:00.000000000 EST
+	Random Bytes: 382f4c919add6275bc8b77b32e0ee07d33ca5df06a9ceb9f8bfa8cea
+	Session ID Length: 0
+	Cipher Suites Length: 26
+	Cipher Suites (13 suites)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384 (0x00a7)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256 (0x006d)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA (0x003a)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 (0x00c5)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA (0x0089)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256 (0x00a6)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256 (0x006c)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA (0x0034)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 (0x00bf)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA (0x0046)
+	Cipher Suite: TLS_DH_anon_WITH_RC4_128_MD5 (0x0018)
+	Cipher Suite: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA (0x001b)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+AEAD
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using Authenticated Encryption with Additional Data
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher AEAD
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 28
+handshake_ciphersuites: Cipher Suites (14 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 125
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 121
+	Version: TLS 1.2 (0x0303)
+	Random: 7f20af86f3828ef502f3fcf0d5733917fb3d3b562c60786103edb99f095d0427
+	GMT Unix Time: Aug  2, 2037 13:55:18.000000000 EDT
+	Random Bytes: f3828ef502f3fcf0d5733917fb3d3b562c60786103edb99f095d0427
+	Session ID Length: 0
+	Cipher Suites Length: 28
+	Cipher Suites (14 suites)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384 (0x00a7)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256 (0x00a6)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+AECDH
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Ciphersuites using ephemeral ECDH for key exchange without doing any server authentication. Equivalent to ECDH+aNULL
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher AECDH
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 12
+handshake_ciphersuites: Cipher Suites (6 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 109
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 105
+	Version: TLS 1.2 (0x0303)
+	Random: 1eb04883a16a4fa2bdc530000db55c89210c66e0c482994e847f411669bf5381
+	GMT Unix Time: Apr 25, 1986 22:16:19.000000000 EST
+	Random Bytes: a16a4fa2bdc530000db55c89210c66e0c482994e847f411669bf5381
+	Session ID Length: 0
+	Cipher Suites Length: 12
+	Cipher Suites (6 suites)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA (0xc019)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA (0xc018)
+	Cipher Suite: TLS_ECDH_anon_WITH_RC4_128_SHA (0xc016)
+	Cipher Suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA (0xc017)
+	Cipher Suite: TLS_ECDH_anon_WITH_NULL_SHA (0xc015)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+aECDSA
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using ECDSA server authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher aECDSA
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 22
+handshake_ciphersuites: Cipher Suites (11 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 119
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 115
+	Version: TLS 1.2 (0x0303)
+	Random: 09924f171a026766e492035c0474f9fb4321195feda039cbe6707e883a9402d3
+	GMT Unix Time: Feb  2, 1975 09:30:47.000000000 EST
+	Random Bytes: 1a026766e492035c0474f9fb4321195feda039cbe6707e883a9402d3
+	Session ID Length: 0
+	Cipher Suites Length: 22
+	Cipher Suites (11 suites)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA (0xc007)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA (0xc008)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA (0xc006)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+AES
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using AES or AESGCM for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher AES
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 66
+handshake_ciphersuites: Cipher Suites (33 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 163
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 159
+	Version: TLS 1.2 (0x0303)
+	Random: 5acebbe8f7bcba580248d62ddf5820d0099508a906b11e745b61fd13562673eb
+	GMT Unix Time: Apr 11, 2018 21:52:40.000000000 EDT
+	Random Bytes: f7bcba580248d62ddf5820d0099508a906b11e745b61fd13562673eb
+	Session ID Length: 0
+	Cipher Suites Length: 66
+	Cipher Suites (33 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA (0xc019)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384 (0x00a7)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256 (0x006d)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA (0x003a)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA (0xc018)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256 (0x00a6)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256 (0x006c)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA (0x0034)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+AES128
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using AES(128) or AESGCM(128) for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher AES128
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 34
+handshake_ciphersuites: Cipher Suites (17 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 131
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 127
+	Version: TLS 1.2 (0x0303)
+	Random: 146dcb5ccc7d5e4f4461cb438ea030a9a4726ceaa2cfb853f3e57965f464b68d
+	GMT Unix Time: Nov 10, 1980 16:30:04.000000000 EST
+	Random Bytes: cc7d5e4f4461cb438ea030a9a4726ceaa2cfb853f3e57965f464b68d
+	Session ID Length: 0
+	Cipher Suites Length: 34
+	Cipher Suites (17 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA (0xc018)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256 (0x00a6)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256 (0x006c)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA (0x0034)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+AES256
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using AES(256) or AESGCM(256) for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher AES256
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 34
+handshake_ciphersuites: Cipher Suites (17 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 131
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 127
+	Version: TLS 1.2 (0x0303)
+	Random: 7c2a5aacd2ca5303ceb9b40af8eb36a3f86f4a8151bab52c3827d1b172d36fc4
+	GMT Unix Time: Jan  5, 2036 07:55:08.000000000 EST
+	Random Bytes: d2ca5303ceb9b40af8eb36a3f86f4a8151bab52c3827d1b172d36fc4
+	Session ID Length: 0
+	Cipher Suites Length: 34
+	Cipher Suites (17 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA (0xc019)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384 (0x00a7)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256 (0x006d)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA (0x003a)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+AESGCM
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using AESGCM for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher AESGCM
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 22
+handshake_ciphersuites: Cipher Suites (11 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 119
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 115
+	Version: TLS 1.2 (0x0303)
+	Random: 020b265b6dbd349a7253c020bcbbb4e48cdde90f2cb1d0eff8b7d242f6249275
+	GMT Unix Time: Feb  1, 1971 14:39:07.000000000 EST
+	Random Bytes: 6dbd349a7253c020bcbbb4e48cdde90f2cb1d0eff8b7d242f6249275
+	Session ID Length: 0
+	Cipher Suites Length: 22
+	Cipher Suites (11 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384 (0x00a7)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256 (0x00a6)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+aGOST
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: An alias for aGOST01
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher aGOST
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 10
+handshake_ciphersuites: Cipher Suites (5 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 87
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 83
+	Version: TLS 1.2 (0x0303)
+	Random: 93445d3da496070c396a1ff9da72c89c80ed0a862f136d0cf0573d787b568ed9
+	GMT Unix Time: Apr 17, 2048 06:11:09.000000000 EDT
+	Random Bytes: a496070c396a1ff9da72c89c80ed0a862f136d0cf0573d787b568ed9
+	Session ID Length: 0
+	Cipher Suites Length: 10
+	Cipher Suites (5 suites)
+	Cipher Suite: Unknown (0xff85)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_GOSTR341001_WITH_28147_CNT_IMIT (0x0081)
+	Cipher Suite: Unknown (0xff87)
+	Cipher Suite: TLS_GOSTR341001_WITH_NULL_GOSTR3411 (0x0083)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+aGOST01
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using GOST R 34.10-2001 server authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher aGOST01
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 10
+handshake_ciphersuites: Cipher Suites (5 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 87
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 83
+	Version: TLS 1.2 (0x0303)
+	Random: cbec03fd006f07d1f47a7ed7564add53c2ec58626f8036497660ca88c05d034d
+	GMT Unix Time: May 31, 2078 13:06:05.000000000 EDT
+	Random Bytes: 006f07d1f47a7ed7564add53c2ec58626f8036497660ca88c05d034d
+	Session ID Length: 0
+	Cipher Suites Length: 10
+	Cipher Suites (5 suites)
+	Cipher Suite: Unknown (0xff85)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_GOSTR341001_WITH_28147_CNT_IMIT (0x0081)
+	Cipher Suite: Unknown (0xff87)
+	Cipher Suite: TLS_GOSTR341001_WITH_NULL_GOSTR3411 (0x0083)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+ALL
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: All cipher suites except those selected by eNULL
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher ALL
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 124
+handshake_ciphersuites: Cipher Suites (62 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 221
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 217
+	Version: TLS 1.2 (0x0303)
+	Random: 476b28ba84ed133e6cf653b630c2fdb876fa9382a58a96f3704dfc3207008039
+	GMT Unix Time: Dec 20, 2007 21:45:14.000000000 EST
+	Random Bytes: 84ed133e6cf653b630c2fdb876fa9382a58a96f3704dfc3207008039
+	Session ID Length: 0
+	Cipher Suites Length: 124
+	Cipher Suites (62 suites)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: Unknown (0xff85)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c4)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0088)
+	Cipher Suite: TLS_GOSTR341001_WITH_28147_CNT_IMIT (0x0081)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA (0xc019)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384 (0x00a7)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256 (0x006d)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA (0x003a)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 (0x00c5)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA (0x0089)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c0)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0084)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00be)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0045)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA (0xc018)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256 (0x00a6)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256 (0x006c)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA (0x0034)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 (0x00bf)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA (0x0046)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00ba)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0041)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA (0xc011)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA (0xc007)
+	Cipher Suite: TLS_ECDH_anon_WITH_RC4_128_SHA (0xc016)
+	Cipher Suite: TLS_DH_anon_WITH_RC4_128_MD5 (0x0018)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_SHA (0x0005)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_MD5 (0x0004)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA (0xc012)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA (0xc008)
+	Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA (0x0016)
+	Cipher Suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA (0xc017)
+	Cipher Suite: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA (0x001b)
+	Cipher Suite: TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+aNULL
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites that don't do any server authentication. Not enabled by DEFAULT. Beware of man-in-the-middle attacks
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher aNULL
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 36
+handshake_ciphersuites: Cipher Suites (18 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 133
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 129
+	Version: TLS 1.2 (0x0303)
+	Random: e97c6e12c0612d18f2c009b12982322add88e2d95b1131f00d46bbb19e829b9b
+	GMT Unix Time: Feb 17, 2094 06:52:50.000000000 EST
+	Random Bytes: c0612d18f2c009b12982322add88e2d95b1131f00d46bbb19e829b9b
+	Session ID Length: 0
+	Cipher Suites Length: 36
+	Cipher Suites (18 suites)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA (0xc019)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384 (0x00a7)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256 (0x006d)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA (0x003a)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 (0x00c5)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA (0x0089)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA (0xc018)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256 (0x00a6)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256 (0x006c)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA (0x0034)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 (0x00bf)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA (0x0046)
+	Cipher Suite: TLS_ECDH_anon_WITH_RC4_128_SHA (0xc016)
+	Cipher Suite: TLS_DH_anon_WITH_RC4_128_MD5 (0x0018)
+	Cipher Suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA (0xc017)
+	Cipher Suite: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA (0x001b)
+	Cipher Suite: TLS_ECDH_anon_WITH_NULL_SHA (0xc015)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+aRSA
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using RSA server authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher aRSA
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 78
+handshake_ciphersuites: Cipher Suites (39 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 175
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 171
+	Version: TLS 1.2 (0x0303)
+	Random: 869e3790fe59ffb683a10e09c7ea882dd8a4a4c70a8d9ecde673fea65948c33c
+	GMT Unix Time: Jul 27, 2041 01:30:56.000000000 EDT
+	Random Bytes: fe59ffb683a10e09c7ea882dd8a4a4c70a8d9ecde673fea65948c33c
+	Session ID Length: 0
+	Cipher Suites Length: 78
+	Cipher Suites (39 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c4)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0088)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c0)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0084)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00be)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0045)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00ba)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0041)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA (0xc011)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_SHA (0x0005)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_MD5 (0x0004)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA (0xc012)
+	Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA (0x0016)
+	Cipher Suite: TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_NULL_SHA (0xc010)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA256 (0x003b)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA (0x0002)
+	Cipher Suite: TLS_RSA_WITH_NULL_MD5 (0x0001)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+CAMELLIA
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using Camellia for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher CAMELLIA
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 26
+handshake_ciphersuites: Cipher Suites (13 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 103
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 99
+	Version: TLS 1.2 (0x0303)
+	Random: 93369adf10f00c1da52116ea02d06d77f267513b9e72060b0898b37d027593fd
+	GMT Unix Time: Apr  6, 2048 19:42:23.000000000 EDT
+	Random Bytes: 10f00c1da52116ea02d06d77f267513b9e72060b0898b37d027593fd
+	Session ID Length: 0
+	Cipher Suites Length: 26
+	Cipher Suites (13 suites)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c4)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0088)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 (0x00c5)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA (0x0089)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c0)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0084)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00be)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0045)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 (0x00bf)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA (0x0046)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00ba)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0041)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+CAMELLIA128
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using Camellia(128) for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher CAMELLIA128
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 14
+handshake_ciphersuites: Cipher Suites (7 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 91
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 87
+	Version: TLS 1.2 (0x0303)
+	Random: 6671f98ec72df8e321206117ca55fbc87b0f7906bdbaa0ca4ef1f29920f15b7e
+	GMT Unix Time: Jun 18, 2024 17:18:06.000000000 EDT
+	Random Bytes: c72df8e321206117ca55fbc87b0f7906bdbaa0ca4ef1f29920f15b7e
+	Session ID Length: 0
+	Cipher Suites Length: 14
+	Cipher Suites (7 suites)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00be)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0045)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 (0x00bf)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA (0x0046)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00ba)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0041)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+CAMELLIA256
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using Camellia(256) for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher CAMELLIA256
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 14
+handshake_ciphersuites: Cipher Suites (7 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 91
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 87
+	Version: TLS 1.2 (0x0303)
+	Random: dc71cba1ad203aedf17c33bbfbbf768a114e875b82fada2e9e93d1c93ddf1693
+	GMT Unix Time: Mar 13, 2087 21:53:37.000000000 EDT
+	Random Bytes: ad203aedf17c33bbfbbf768a114e875b82fada2e9e93d1c93ddf1693
+	Session ID Length: 0
+	Cipher Suites Length: 14
+	Cipher Suites (7 suites)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c4)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0088)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 (0x00c5)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA (0x0089)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c0)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0084)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+CHACHA20
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using ChaCha20-Poly1305 for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher CHACHA20
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 8
+handshake_ciphersuites: Cipher Suites (4 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 105
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 101
+	Version: TLS 1.2 (0x0303)
+	Random: a9d592505c637a11c5c4b2e2dcc771d43f8f8e512933bb3b01aacd8d1ee5f1b1
+	GMT Unix Time: Apr 16, 2060 09:02:08.000000000 EDT
+	Random Bytes: 5c637a11c5c4b2e2dcc771d43f8f8e512933bb3b01aacd8d1ee5f1b1
+	Session ID Length: 0
+	Cipher Suites Length: 8
+	Cipher Suites (4 suites)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+COMPLEMENTOFALL
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites that are not included in ALL. Currently an alias for eNULL
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher COMPLEMENTOFALL
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 18
+handshake_ciphersuites: Cipher Suites (9 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 115
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 111
+	Version: TLS 1.2 (0x0303)
+	Random: 613dc0d87c1ea5e1fd71f0d08bcd7ad4f05939383ab4a22c0f657f7a6cae649c
+	GMT Unix Time: Sep 12, 2021 04:56:56.000000000 EDT
+	Random Bytes: 7c1ea5e1fd71f0d08bcd7ad4f05939383ab4a22c0f657f7a6cae649c
+	Session ID Length: 0
+	Cipher Suites Length: 18
+	Cipher Suites (9 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_NULL_SHA (0xc010)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA (0xc006)
+	Cipher Suite: Unknown (0xff87)
+	Cipher Suite: TLS_GOSTR341001_WITH_NULL_GOSTR3411 (0x0083)
+	Cipher Suite: TLS_ECDH_anon_WITH_NULL_SHA (0xc015)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA256 (0x003b)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA (0x0002)
+	Cipher Suite: TLS_RSA_WITH_NULL_MD5 (0x0001)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+COMPLEMENTOFDEFAULT
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites that are included in ALLsv,  but not included in DEFAULT. Currently similar to aNULL:!eNULL except for the order of the cipher suites which are not selected
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher COMPLEMENTOFDEFAULT
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 34
+handshake_ciphersuites: Cipher Suites (17 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 131
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 127
+	Version: TLS 1.2 (0x0303)
+	Random: 6802b3bb9b4ca514218de274e51e37babf9cec8e71ad83fbb7e0fc3a8db85ebc
+	GMT Unix Time: Apr 18, 2025 16:19:07.000000000 EDT
+	Random Bytes: 9b4ca514218de274e51e37babf9cec8e71ad83fbb7e0fc3a8db85ebc
+	Session ID Length: 0
+	Cipher Suites Length: 34
+	Cipher Suites (17 suites)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA (0xc019)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384 (0x00a7)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256 (0x006d)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA (0x003a)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 (0x00c5)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA (0x0089)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA (0xc018)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256 (0x00a6)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256 (0x006c)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA (0x0034)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 (0x00bf)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA (0x0046)
+	Cipher Suite: TLS_ECDH_anon_WITH_RC4_128_SHA (0xc016)
+	Cipher Suite: TLS_DH_anon_WITH_RC4_128_MD5 (0x0018)
+	Cipher Suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA (0xc017)
+	Cipher Suite: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA (0x001b)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+3DES
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using triple DES for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher 3DES
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 14
+handshake_ciphersuites: Cipher Suites (7 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 111
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 107
+	Version: TLS 1.2 (0x0303)
+	Random: fd59921eadfaaff3d867bb98168b0f3783b552c4adba3b0637b0c349209f5444
+	GMT Unix Time: Sep 10, 2104 12:02:38.000000000 EDT
+	Random Bytes: adfaaff3d867bb98168b0f3783b552c4adba3b0637b0c349209f5444
+	Session ID Length: 0
+	Cipher Suites Length: 14
+	Cipher Suites (7 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA (0xc012)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA (0xc008)
+	Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA (0x0016)
+	Cipher Suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA (0xc017)
+	Cipher Suite: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA (0x001b)
+	Cipher Suite: TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+DH
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using ephemeral DH for key exchange
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher DH
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 50
+handshake_ciphersuites: Cipher Suites (25 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 127
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 123
+	Version: TLS 1.2 (0x0303)
+	Random: 45d3d725ec02e6e8aac330f03b4e67b56af1e62d3bbc669110a0f963cd5acde7
+	GMT Unix Time: Feb 14, 2007 22:44:37.000000000 EST
+	Random Bytes: ec02e6e8aac330f03b4e67b56af1e62d3bbc669110a0f963cd5acde7
+	Session ID Length: 0
+	Cipher Suites Length: 50
+	Cipher Suites (25 suites)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c4)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0088)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384 (0x00a7)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256 (0x006d)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA (0x003a)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 (0x00c5)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA (0x0089)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00be)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0045)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256 (0x00a6)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256 (0x006c)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA (0x0034)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 (0x00bf)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA (0x0046)
+	Cipher Suite: TLS_DH_anon_WITH_RC4_128_MD5 (0x0018)
+	Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA (0x0016)
+	Cipher Suite: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA (0x001b)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+DHE
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using ephemeral DH for key exchangesv, but excluding those that don't do any server authentication. Similar to DH:!aNULL except for the order of the cipher suites which are not selected
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher DHE
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 26
+handshake_ciphersuites: Cipher Suites (13 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 103
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 99
+	Version: TLS 1.2 (0x0303)
+	Random: 8179869916b2359ca6288a3033c8a58aa2beacef523bf93046151d19b3d2ac5e
+	GMT Unix Time: Nov  1, 2038 07:52:57.000000000 EDT
+	Random Bytes: 16b2359ca6288a3033c8a58aa2beacef523bf93046151d19b3d2ac5e
+	Session ID Length: 0
+	Cipher Suites Length: 26
+	Cipher Suites (13 suites)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c4)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0088)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00be)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0045)
+	Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA (0x0016)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+ECDH
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using ephemeral ECDH for key exchange
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher ECDH
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 52
+handshake_ciphersuites: Cipher Suites (26 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 149
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 145
+	Version: TLS 1.2 (0x0303)
+	Random: 709bdcb272922d32bb8b9b39b52eec3e0cc438178bfb731c2f88dddd6ca240e1
+	GMT Unix Time: Nov 13, 2029 06:12:50.000000000 EST
+	Random Bytes: 72922d32bb8b9b39b52eec3e0cc438178bfb731c2f88dddd6ca240e1
+	Session ID Length: 0
+	Cipher Suites Length: 52
+	Cipher Suites (26 suites)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA (0xc019)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA (0xc018)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA (0xc011)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA (0xc007)
+	Cipher Suite: TLS_ECDH_anon_WITH_RC4_128_SHA (0xc016)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA (0xc012)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA (0xc008)
+	Cipher Suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA (0xc017)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_NULL_SHA (0xc010)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA (0xc006)
+	Cipher Suite: TLS_ECDH_anon_WITH_NULL_SHA (0xc015)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+ECDHE
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using ephemeral ECDH for key exchangesv, but excluding those that don't do any server authentication. Similar to ECDH:!aNULL except for the order of the cipher suites which are not selected
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher ECDHE
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 42
+handshake_ciphersuites: Cipher Suites (21 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 139
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 135
+	Version: TLS 1.2 (0x0303)
+	Random: 1827f4393326627e2b82000cf8b4270cbd52c6c9adece1ef48fe1111d01159ab
+	GMT Unix Time: Nov  4, 1982 10:26:49.000000000 EST
+	Random Bytes: 3326627e2b82000cf8b4270cbd52c6c9adece1ef48fe1111d01159ab
+	Session ID Length: 0
+	Cipher Suites Length: 42
+	Cipher Suites (21 suites)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA (0xc011)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA (0xc007)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA (0xc012)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA (0xc008)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_NULL_SHA (0xc010)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA (0xc006)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+ECDSA
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: An alias for aECDSA
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher ECDSA
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 22
+handshake_ciphersuites: Cipher Suites (11 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 119
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 115
+	Version: TLS 1.2 (0x0303)
+	Random: 65e7a0daf672c5c53d5e4d17b6f129ec40bb739eb2a51ecc22060722416dbbda
+	GMT Unix Time: Mar  5, 2024 17:46:50.000000000 EST
+	Random Bytes: f672c5c53d5e4d17b6f129ec40bb739eb2a51ecc22060722416dbbda
+	Session ID Length: 0
+	Cipher Suites Length: 22
+	Cipher Suites (11 suites)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA (0xc007)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA (0xc008)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA (0xc006)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+eNULL
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites that do not use any encryption. Not enabled by DEFAULTsv, and not even included in ALL
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher eNULL
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 18
+handshake_ciphersuites: Cipher Suites (9 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 115
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 111
+	Version: TLS 1.2 (0x0303)
+	Random: 1a46e72e3f694adc47d40c4749febdfc44d31ad00f3a8609f36c5213dd300360
+	GMT Unix Time: Dec 21, 1983 06:31:58.000000000 EST
+	Random Bytes: 3f694adc47d40c4749febdfc44d31ad00f3a8609f36c5213dd300360
+	Session ID Length: 0
+	Cipher Suites Length: 18
+	Cipher Suites (9 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_NULL_SHA (0xc010)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA (0xc006)
+	Cipher Suite: Unknown (0xff87)
+	Cipher Suite: TLS_GOSTR341001_WITH_NULL_GOSTR3411 (0x0083)
+	Cipher Suite: TLS_ECDH_anon_WITH_NULL_SHA (0xc015)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA256 (0x003b)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA (0x0002)
+	Cipher Suite: TLS_RSA_WITH_NULL_MD5 (0x0001)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+GOST89MAC
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using GOST 28147-89 for message authentication instead of HMAC
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher GOST89MAC
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 6
+handshake_ciphersuites: Cipher Suites (3 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 83
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 79
+	Version: TLS 1.2 (0x0303)
+	Random: dd38e8cd9ca91fb9e7b109014414d7080b2ee84b68eb0feacd2676a4ecb246bd
+	GMT Unix Time: Aug 11, 2087 22:39:09.000000000 EDT
+	Random Bytes: 9ca91fb9e7b109014414d7080b2ee84b68eb0feacd2676a4ecb246bd
+	Session ID Length: 0
+	Cipher Suites Length: 6
+	Cipher Suites (3 suites)
+	Cipher Suite: Unknown (0xff85)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_GOSTR341001_WITH_28147_CNT_IMIT (0x0081)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+GOST94
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using HMAC based on GOST R 34.11-94 for message authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher GOST94
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 4
+handshake_ciphersuites: Cipher Suites (2 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 81
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 77
+	Version: TLS 1.2 (0x0303)
+	Random: 6a0cdb7b8884307144b12bed7885d3eb4a46e81cf490fd46a99b498b84dfcf3e
+	GMT Unix Time: May 19, 2026 17:51:55.000000000 EDT
+	Random Bytes: 8884307144b12bed7885d3eb4a46e81cf490fd46a99b498b84dfcf3e
+	Session ID Length: 0
+	Cipher Suites Length: 4
+	Cipher Suites (2 suites)
+	Cipher Suite: TLS_GOSTR341001_WITH_NULL_GOSTR3411 (0x0083)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+HIGH
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites of high strength
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher HIGH
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 100
+handshake_ciphersuites: Cipher Suites (50 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 197
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 193
+	Version: TLS 1.2 (0x0303)
+	Random: 5ef323b9157288794d7960cfb31f3c05e4f79b2ea311af088b59d771afc2f914
+	GMT Unix Time: Jun 24, 2020 05:58:17.000000000 EDT
+	Random Bytes: 157288794d7960cfb31f3c05e4f79b2ea311af088b59d771afc2f914
+	Session ID Length: 0
+	Cipher Suites Length: 100
+	Cipher Suites (50 suites)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: Unknown (0xff85)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c4)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0088)
+	Cipher Suite: TLS_GOSTR341001_WITH_28147_CNT_IMIT (0x0081)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA (0xc019)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384 (0x00a7)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256 (0x006d)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA (0x003a)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 (0x00c5)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA (0x0089)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c0)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0084)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00be)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0045)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA (0xc018)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256 (0x00a6)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256 (0x006c)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA (0x0034)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 (0x00bf)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA (0x0046)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00ba)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0041)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+kGOST
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using VKO 34.10 key exchangesv,  specified in RFC 4357
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher kGOST
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 10
+handshake_ciphersuites: Cipher Suites (5 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 87
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 83
+	Version: TLS 1.2 (0x0303)
+	Random: 3d4fd1ea6f3094ae7adea4265d856ea6b7f6b705ac0e2f522331c85ef1ad44af
+	GMT Unix Time: Aug  6, 2002 09:40:58.000000000 EDT
+	Random Bytes: 6f3094ae7adea4265d856ea6b7f6b705ac0e2f522331c85ef1ad44af
+	Session ID Length: 0
+	Cipher Suites Length: 10
+	Cipher Suites (5 suites)
+	Cipher Suite: Unknown (0xff85)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_GOSTR341001_WITH_28147_CNT_IMIT (0x0081)
+	Cipher Suite: Unknown (0xff87)
+	Cipher Suite: TLS_GOSTR341001_WITH_NULL_GOSTR3411 (0x0083)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+kRSA
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using RSA key exchange
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher kRSA
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 34
+handshake_ciphersuites: Cipher Suites (17 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 111
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 107
+	Version: TLS 1.2 (0x0303)
+	Random: 98909b8265668904002175f6898690fa66871abba93dfc2a93befab305b1e77a
+	GMT Unix Time: Feb  9, 2051 22:50:26.000000000 EST
+	Random Bytes: 65668904002175f6898690fa66871abba93dfc2a93befab305b1e77a
+	Session ID Length: 0
+	Cipher Suites Length: 34
+	Cipher Suites (17 suites)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c0)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0084)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00ba)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0041)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_SHA (0x0005)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_MD5 (0x0004)
+	Cipher Suite: TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA256 (0x003b)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA (0x0002)
+	Cipher Suite: TLS_RSA_WITH_NULL_MD5 (0x0001)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+LOW
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites of low strength
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher LOW
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 14
+handshake_ciphersuites: Cipher Suites (7 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 111
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 107
+	Version: TLS 1.2 (0x0303)
+	Random: 18a23dec667def0dfc7bd0a7f77b77cb06165674249a53f4156bbaa16f1c2d28
+	GMT Unix Time: Feb  5, 1983 04:37:48.000000000 EST
+	Random Bytes: 667def0dfc7bd0a7f77b77cb06165674249a53f4156bbaa16f1c2d28
+	Session ID Length: 0
+	Cipher Suites Length: 14
+	Cipher Suites (7 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA (0xc011)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA (0xc007)
+	Cipher Suite: TLS_ECDH_anon_WITH_RC4_128_SHA (0xc016)
+	Cipher Suite: TLS_DH_anon_WITH_RC4_128_MD5 (0x0018)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_SHA (0x0005)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_MD5 (0x0004)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+MD5
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using MD5 for message authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher MD5
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 8
+handshake_ciphersuites: Cipher Suites (4 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 85
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 81
+	Version: TLS 1.2 (0x0303)
+	Random: 6579dd52bc6cfefa46d7b30e8b2a2ba4c79b0058a17c650c7ce4a8fd57264fc0
+	GMT Unix Time: Dec 13, 2023 11:35:30.000000000 EST
+	Random Bytes: bc6cfefa46d7b30e8b2a2ba4c79b0058a17c650c7ce4a8fd57264fc0
+	Session ID Length: 0
+	Cipher Suites Length: 8
+	Cipher Suites (4 suites)
+	Cipher Suite: TLS_DH_anon_WITH_RC4_128_MD5 (0x0018)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_MD5 (0x0004)
+	Cipher Suite: TLS_RSA_WITH_NULL_MD5 (0x0001)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+MEDIUM
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites of medium strength
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher MEDIUM
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 14
+handshake_ciphersuites: Cipher Suites (7 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 111
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 107
+	Version: TLS 1.2 (0x0303)
+	Random: 8477e57190151778fafebcc6d098c6a9ab70d00e1bdf8d3830f01ce5974f9a7d
+	GMT Unix Time: Jun  4, 2040 15:13:53.000000000 EDT
+	Random Bytes: 90151778fafebcc6d098c6a9ab70d00e1bdf8d3830f01ce5974f9a7d
+	Session ID Length: 0
+	Cipher Suites Length: 14
+	Cipher Suites (7 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA (0xc012)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA (0xc008)
+	Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA (0x0016)
+	Cipher Suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA (0xc017)
+	Cipher Suite: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA (0x001b)
+	Cipher Suite: TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+NULL
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: An alias for eNULL
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher NULL
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 18
+handshake_ciphersuites: Cipher Suites (9 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 115
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 111
+	Version: TLS 1.2 (0x0303)
+	Random: 0d461db198f31ac44dcbd421ceb5dc8f9e0e5f53f76227e005f5bf682941c843
+	GMT Unix Time: Jan 21, 1977 07:48:49.000000000 EST
+	Random Bytes: 98f31ac44dcbd421ceb5dc8f9e0e5f53f76227e005f5bf682941c843
+	Session ID Length: 0
+	Cipher Suites Length: 18
+	Cipher Suites (9 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_NULL_SHA (0xc010)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA (0xc006)
+	Cipher Suite: Unknown (0xff87)
+	Cipher Suite: TLS_GOSTR341001_WITH_NULL_GOSTR3411 (0x0083)
+	Cipher Suite: TLS_ECDH_anon_WITH_NULL_SHA (0xc015)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA256 (0x003b)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA (0x0002)
+	Cipher Suite: TLS_RSA_WITH_NULL_MD5 (0x0001)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+RC4
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using RC4 for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher RC4
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 14
+handshake_ciphersuites: Cipher Suites (7 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 111
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 107
+	Version: TLS 1.2 (0x0303)
+	Random: 889090cfc5792b1b5bc536fb2bf509e810ace39941ba2694e56fd0940fd39d4d
+	GMT Unix Time: Aug  9, 2042 01:40:31.000000000 EDT
+	Random Bytes: c5792b1b5bc536fb2bf509e810ace39941ba2694e56fd0940fd39d4d
+	Session ID Length: 0
+	Cipher Suites Length: 14
+	Cipher Suites (7 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA (0xc011)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA (0xc007)
+	Cipher Suite: TLS_ECDH_anon_WITH_RC4_128_SHA (0xc016)
+	Cipher Suite: TLS_DH_anon_WITH_RC4_128_MD5 (0x0018)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_SHA (0x0005)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_MD5 (0x0004)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+RSA
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using RSA for both key exchange and server authentication. Equivalent to kRSA+aRSA
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher RSA
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 34
+handshake_ciphersuites: Cipher Suites (17 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 111
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 107
+	Version: TLS 1.2 (0x0303)
+	Random: 4146b396f378be7d4f38530512e1bc44430baa467762706840b18258a35c8f21
+	GMT Unix Time: Sep 14, 2004 05:02:14.000000000 EDT
+	Random Bytes: f378be7d4f38530512e1bc44430baa467762706840b18258a35c8f21
+	Session ID Length: 0
+	Cipher Suites Length: 34
+	Cipher Suites (17 suites)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c0)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0084)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00ba)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0041)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_SHA (0x0005)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_MD5 (0x0004)
+	Cipher Suite: TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA256 (0x003b)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA (0x0002)
+	Cipher Suite: TLS_RSA_WITH_NULL_MD5 (0x0001)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+SHA
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: An alias for SHA1
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher SHA
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 66
+handshake_ciphersuites: Cipher Suites (33 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 163
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 159
+	Version: TLS 1.2 (0x0303)
+	Random: 57a1cf25a0c9f6ffee14699e330392c915e088b3975e6ed127b11777baedcc77
+	GMT Unix Time: Aug  3, 2016 07:01:57.000000000 EDT
+	Random Bytes: a0c9f6ffee14699e330392c915e088b3975e6ed127b11777baedcc77
+	Session ID Length: 0
+	Cipher Suites Length: 66
+	Cipher Suites (33 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0088)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA (0xc019)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA (0x003a)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA (0x0089)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0084)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0045)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA (0xc018)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA (0x0034)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA (0x0046)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0041)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA (0xc011)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA (0xc007)
+	Cipher Suite: TLS_ECDH_anon_WITH_RC4_128_SHA (0xc016)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_SHA (0x0005)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA (0xc012)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA (0xc008)
+	Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA (0x0016)
+	Cipher Suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA (0xc017)
+	Cipher Suite: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA (0x001b)
+	Cipher Suite: TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_NULL_SHA (0xc010)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA (0xc006)
+	Cipher Suite: TLS_ECDH_anon_WITH_NULL_SHA (0xc015)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA (0x0002)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+SHA1
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using SHA1 for message authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher SHA1
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 66
+handshake_ciphersuites: Cipher Suites (33 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 163
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 159
+	Version: TLS 1.2 (0x0303)
+	Random: 40a4be21963681089c4ff9408e1cb39b2bb8624ab1abc9321f301fd2dd79ae57
+	GMT Unix Time: May 14, 2004 08:40:01.000000000 EDT
+	Random Bytes: 963681089c4ff9408e1cb39b2bb8624ab1abc9321f301fd2dd79ae57
+	Session ID Length: 0
+	Cipher Suites Length: 66
+	Cipher Suites (33 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0088)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA (0xc019)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA (0x003a)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA (0x0089)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0084)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0045)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA (0xc018)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA (0x0034)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA (0x0046)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0041)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA (0xc011)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA (0xc007)
+	Cipher Suite: TLS_ECDH_anon_WITH_RC4_128_SHA (0xc016)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_SHA (0x0005)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA (0xc012)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA (0xc008)
+	Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA (0x0016)
+	Cipher Suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA (0xc017)
+	Cipher Suite: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA (0x001b)
+	Cipher Suite: TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_NULL_SHA (0xc010)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA (0xc006)
+	Cipher Suite: TLS_ECDH_anon_WITH_NULL_SHA (0xc015)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA (0x0002)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+SHA256
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using SHA256 for message authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher SHA256
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 32
+handshake_ciphersuites: Cipher Suites (16 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 129
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 125
+	Version: TLS 1.2 (0x0303)
+	Random: c49783810827a62e56f6ef7fa795fb589d530a09afb62101db171d33f2768473
+	GMT Unix Time: Jul  8, 2074 04:25:37.000000000 EDT
+	Random Bytes: 0827a62e56f6ef7fa795fb589d530a09afb62101db171d33f2768473
+	Session ID Length: 0
+	Cipher Suites Length: 32
+	Cipher Suites (16 suites)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c4)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256 (0x006d)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 (0x00c5)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c0)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00be)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256 (0x006c)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 (0x00bf)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00ba)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA256 (0x003b)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+SHA384
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using SHA384 for message authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher SHA384
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 6
+handshake_ciphersuites: Cipher Suites (3 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 103
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 99
+	Version: TLS 1.2 (0x0303)
+	Random: 5243e851eaad46a2090c0d0c53b9b6bf875d3af73ae97234b8f1cd6133873786
+	GMT Unix Time: Sep 26, 2013 03:54:57.000000000 EDT
+	Random Bytes: eaad46a2090c0d0c53b9b6bf875d3af73ae97234b8f1cd6133873786
+	Session ID Length: 0
+	Cipher Suites Length: 6
+	Cipher Suites (3 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+SSLv3
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: An alias for TLSv1
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher SSLv3
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 80
+handshake_ciphersuites: Cipher Suites (40 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 177
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 173
+	Version: TLS 1.2 (0x0303)
+	Random: b51a93669c0cc9fd535e24041052b48296ddf7a6c77013799384e47174898f15
+	GMT Unix Time: Apr 13, 2066 16:56:06.000000000 EDT
+	Random Bytes: 9c0cc9fd535e24041052b48296ddf7a6c77013799384e47174898f15
+	Session ID Length: 0
+	Cipher Suites Length: 80
+	Cipher Suites (40 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: Unknown (0xff85)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0088)
+	Cipher Suite: TLS_GOSTR341001_WITH_28147_CNT_IMIT (0x0081)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA (0xc019)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA (0x003a)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA (0x0089)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0084)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0045)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA (0xc018)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA (0x0034)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA (0x0046)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0041)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA (0xc011)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA (0xc007)
+	Cipher Suite: TLS_ECDH_anon_WITH_RC4_128_SHA (0xc016)
+	Cipher Suite: TLS_DH_anon_WITH_RC4_128_MD5 (0x0018)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_SHA (0x0005)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_MD5 (0x0004)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA (0xc012)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA (0xc008)
+	Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA (0x0016)
+	Cipher Suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA (0xc017)
+	Cipher Suite: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA (0x001b)
+	Cipher Suite: TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_NULL_SHA (0xc010)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA (0xc006)
+	Cipher Suite: Unknown (0xff87)
+	Cipher Suite: TLS_GOSTR341001_WITH_NULL_GOSTR3411 (0x0083)
+	Cipher Suite: TLS_ECDH_anon_WITH_NULL_SHA (0xc015)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA (0x0002)
+	Cipher Suite: TLS_RSA_WITH_NULL_MD5 (0x0001)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+STREEBOG256
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites using STREEBOG256 for message authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher STREEBOG256
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 4
+handshake_ciphersuites: Cipher Suites (2 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 81
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 77
+	Version: TLS 1.2 (0x0303)
+	Random: 8924954e77f1935c391ed237dabef2c8b3832fc62d0723b0ff2d59fbe7d173fd
+	GMT Unix Time: Nov 29, 2042 07:15:10.000000000 EST
+	Random Bytes: 77f1935c391ed237dabef2c8b3832fc62d0723b0ff2d59fbe7d173fd
+	Session ID Length: 0
+	Cipher Suites Length: 4
+	Cipher Suites (2 suites)
+	Cipher Suite: Unknown (0xff87)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+TLSv1
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites usable with the TLSv1.0sv,  TLSv1.1sv, and TLSv1.2 protocols
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher TLSv1
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 80
+handshake_ciphersuites: Cipher Suites (40 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 177
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 173
+	Version: TLS 1.2 (0x0303)
+	Random: 929a255465a94abdce79abdabbf68a4bd55b579fb4d99731a788d98c8e3f8869
+	GMT Unix Time: Dec 10, 2047 02:27:16.000000000 EST
+	Random Bytes: 65a94abdce79abdabbf68a4bd55b579fb4d99731a788d98c8e3f8869
+	Session ID Length: 0
+	Cipher Suites Length: 80
+	Cipher Suites (40 suites)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: Unknown (0xff85)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0088)
+	Cipher Suite: TLS_GOSTR341001_WITH_28147_CNT_IMIT (0x0081)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA (0xc019)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA (0x003a)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA (0x0089)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (0x0084)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0045)
+	Cipher Suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA (0xc018)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA (0x0034)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA (0x0046)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (0x0041)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA (0xc011)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA (0xc007)
+	Cipher Suite: TLS_ECDH_anon_WITH_RC4_128_SHA (0xc016)
+	Cipher Suite: TLS_DH_anon_WITH_RC4_128_MD5 (0x0018)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_SHA (0x0005)
+	Cipher Suite: TLS_RSA_WITH_RC4_128_MD5 (0x0004)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA (0xc012)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA (0xc008)
+	Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA (0x0016)
+	Cipher Suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA (0xc017)
+	Cipher Suite: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA (0x001b)
+	Cipher Suite: TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_NULL_SHA (0xc010)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA (0xc006)
+	Cipher Suite: Unknown (0xff87)
+	Cipher Suite: TLS_GOSTR341001_WITH_NULL_GOSTR3411 (0x0083)
+	Cipher Suite: TLS_ECDH_anon_WITH_NULL_SHA (0xc015)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA (0x0002)
+	Cipher Suite: TLS_RSA_WITH_NULL_MD5 (0x0001)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+TLSv1.2
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites for the TLSv1.2 protocol
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher TLSv1.2
+set_tls_extensionserror:00000000:lib(0):func(0):reason(0)
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 62
+handshake_ciphersuites: Cipher Suites (31 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 159
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 155
+	Version: TLS 1.2 (0x0303)
+	Random: 90c43d6d0785c6ae3a50eb6e3e4518798605abe5aea88d45986a6f79eb7fc3bf
+	GMT Unix Time: Dec 18, 2046 16:04:45.000000000 EST
+	Random Bytes: 0785c6ae3a50eb6e3e4518798605abe5aea88d45986a6f79eb7fc3bf
+	Session ID Length: 0
+	Cipher Suites Length: 62
+	Cipher Suites (31 suites)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 52
+	Extension: ec_point_formats (len=2)
+	Type: ec_point_formats (11)
+	Length: 2
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: x25519 (0x001d)
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c4)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384 (0x00a7)
+	Cipher Suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256 (0x006d)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 (0x00c5)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 (0x00c0)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00be)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256 (0x00a6)
+	Cipher Suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256 (0x006c)
+	Cipher Suite: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 (0x00bf)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 (0x00ba)
+	Cipher Suite: TLS_RSA_WITH_NULL_SHA256 (0x003b)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Extension: supported_groups (len=10)
+	Extension: session_ticket (len=0)
+	Extension: signature_algorithms (len=24)
+	Type: supported_groups (10)
+	Type: session_ticket (35)
+	Type: signature_algorithms (13)
+	Length: 10
+	Length: 0
+	Length: 24
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: secp521r1 (0x0019)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************
+TLSv1.3
+Dropper
+Dropper cstrings
+STRING VIEW LOOKUP: Cipher suites for the TLSv1.3 protocol. If the control string selects at least one cipher suite but neither contains the word TLSv1.3 nor specifically includes nor excludes any TLSv1.3 cipher suitessv, all the TLSv1.3 cipher suites are made available too
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher TLSv1.3
+set_tls_extensionserror:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+handshake: Handshake Protocol: Client Hello
+record_version: 0x00000301
+handshake_vesion: 0x00000303
+handshake_cipher_suites_length: 0
+handshake_ciphersuites: Cipher Suites (0 suites)
+Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 77
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 73
+	Version: TLS 1.2 (0x0303)
+	Random: fc650ec398c0f2b1fd596b3bb770006f80bb2303599f8bc022a9b98307138477
+	GMT Unix Time: Mar  8, 2104 23:49:07.000000000 EST
+	Random Bytes: 98c0f2b1fd596b3bb770006f80bb2303599f8bc022a9b98307138477
+	Session ID Length: 0
+	Cipher Suites Length: 0
+	Expert Info (Warning/Protocol): Vector length 0 is smaller than minimum 2
+	Vector length 0 is smaller than minimum 2
+	Severity level: Warning
+	Group: Protocol
+	Cipher Suites (0 suites)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 32
+	Extension: session_ticket (len=0)
+	Type: session_ticket (35)
+	Length: 0
+	Data (0 bytes)
+	Signature Hash Algorithms Length: 22
+	Signature Hash Algorithms (11 algorithms)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Extension: signature_algorithms (len=24)
+	Type: signature_algorithms (13)
+	Length: 24
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+	Signature Algorithm: ecdsa_sha1 (0x0203)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Hash: SHA1 (2)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+
+**************************************************

@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "SCons Build",
+            "name": "Launch Program",
+            "cwd": "${workspaceFolder}",
+            "miDebuggerPath": "/Users/chris/code/quickl-scripts/https/ldb-mi",
+            "program": "${workspaceFolder}/tclient"
+        }
+    ]
+}

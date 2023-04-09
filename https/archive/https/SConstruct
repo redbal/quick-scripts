@@ -1,0 +1,22 @@
+from SCons.Environment import Environment
+lib_path = '../../libraries/portable/'
+
+client = Environment(CXX = "clang++",
+                     CXXFLAGS = ['-std=c++17', '-fPIE',
+                                 '-Iinclude'],
+                     LINKFLAGS = ['-Linclude',
+                                  '-L{}tls/.libs'.format(lib_path),
+                                  '-L{}crypto/.libs'.format(lib_path),
+                                  '-ltls', '-lcrypto', '-lpthread', '-s'])
+
+client.Program(target='client', source=['source/client.cpp', 
+                                  'source/http.cpp',
+                                  'source/tls_socket.cpp',
+                                  '{}tls/.libs/libtls.a'.format(lib_path),
+                                  '{}crypto/.libs/libcrypto.a'.format(lib_path)])
+  
+#client.Program(target='client2', source=['main.cpp', 
+#                                        'http.cpp',
+#                                        'tls/.libs/libtls.a',
+#                                        'ssl/.libs/libssl.a',
+#                                        'crypto/.libs/libcrypto.a'])

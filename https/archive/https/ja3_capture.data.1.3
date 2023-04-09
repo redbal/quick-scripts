@@ -1,0 +1,1119 @@
+pcap data 
+ADH
+Dropper
+STRING VIEW LOOKUP: Cipher suites using ephemeral DH for key exchange without doing any server authentication. Equivalent to DH+aNULL
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher ADH
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x60000240c000
+Setting socket fd 3 to ssl object
+send 0x600003308000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x60000240c000
+Server: 
+JA3: 5ee9d174c0e9b5ea56458c47b3fb3e07JA3 FULL: 771,167-109-58-197-137-166-108-52-191-70-24-27-255,35-13,,
+**************************************************
+AEAD
+Dropper
+STRING VIEW LOOKUP: Cipher suites using Authenticated Encryption with Additional Data
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher AEAD
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600000140080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x600001640000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x600000140080
+..Server: 
+JA3: 7b5e81a32ba4b97c621f2b6e220d3516JA3 FULL: 771,52393-52392-52394-49200-49196-159-167-157-49199-49195-158-166-156-255,11-10-35-13,29-23-24-25,0
+**************************************************
+AECDH
+Dropper
+STRING VIEW LOOKUP: Ciphersuites using ephemeral ECDH for key exchange without doing any server authentication. Equivalent to ECDH+aNULL
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher AECDH
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600003c08000
+Setting socket fd 3 to ssl object
+send 0x600002b0c000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600003c08000
+Server: 
+JA3: a5d82bc751161a113d986d3937418163JA3 FULL: 771,49177-49176-49174-49175-49173-255,11-10-35-13,29-23-24-25,0
+**************************************************
+aECDSA
+Dropper
+STRING VIEW LOOKUP: Cipher suites using ECDSA server authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher aECDSA
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600001744000
+Setting socket fd 3 to ssl object
+send 0x600000040000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600001744000
+Server: 
+JA3: 76e5ec44b462a6657bfd37ec8a3d56edJA3 FULL: 771,52393-49196-49188-49162-49195-49187-49161-49159-49160-49158-255,11-10-35-13,29-23-24-25,0
+**************************************************
+AES
+Dropper
+STRING VIEW LOOKUP: Cipher suites using AES or AESGCM for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher AES
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002fb0080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x6000038b0000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x600002fb0080
+..Server: 
+JA3: 4ebd2c121108f850057a6a170b583400JA3 FULL: 771,49200-49196-49192-49188-49172-49162-159-107-57-49177-167-109-58-157-61-53-49199-49195-49191-49187-49171-49161-158-103-51-49176-166-108-52-156-60-47-255,11-10-35-13,29-23-24-25,0
+**************************************************
+AES128
+Dropper
+STRING VIEW LOOKUP: Cipher suites using AES(128) or AESGCM(128) for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher AES128
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x6000016dc080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x6000001dc000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x6000016dc080
+..Server: 
+JA3: b21ce124c63c6fd12c0bade076995ad4JA3 FULL: 771,49199-49195-49191-49187-49171-49161-158-103-51-49176-166-108-52-156-60-47-255,11-10-35-13,29-23-24-25,0
+**************************************************
+AES256
+Dropper
+STRING VIEW LOOKUP: Cipher suites using AES(256) or AESGCM(256) for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher AES256
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600003d3c080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x600002a3c000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x600003d3c080
+..Server: 
+JA3: 9cce8556c9073fecddbdbcd2daa8e715JA3 FULL: 771,49200-49196-49192-49188-49172-49162-159-107-57-49177-167-109-58-157-61-53-255,11-10-35-13,29-23-24-25,0
+**************************************************
+AESGCM
+Dropper
+STRING VIEW LOOKUP: Cipher suites using AESGCM for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher AESGCM
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002cf8080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x600003bf8000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x600002cf8080
+..Server: 
+JA3: 3407408ce896a45838272f4e90beae78JA3 FULL: 771,49200-49196-159-167-157-49199-49195-158-166-156-255,11-10-35-13,29-23-24-25,0
+**************************************************
+aGOST
+Dropper
+STRING VIEW LOOKUP: An alias for aGOST01
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher aGOST
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600001c7c080
+Setting socket fd 3 to ssl object
+send 0x600000b7c000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600001c7c080
+Server: 
+JA3: ea11b85f9d068c085ecc0d7a899d302eJA3 FULL: 771,65413-129-65415-131-255,35-13,,
+**************************************************
+aGOST01
+Dropper
+STRING VIEW LOOKUP: Cipher suites using GOST R 34.10-2001 server authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher aGOST01
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600000604080
+Setting socket fd 3 to ssl object
+send 0x600001104000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600000604080
+Server: 
+JA3: ea11b85f9d068c085ecc0d7a899d302eJA3 FULL: 771,65413-129-65415-131-255,35-13,,
+**************************************************
+ALL
+Dropper
+STRING VIEW LOOKUP: All cipher suites except those selected by eNULL
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher ALL
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600003d78080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x600002a78000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x600003d78080
+..Server: 
+JA3: 43bd19bd0a4d81fb856a0c5f1fadb44eJA3 FULL: 771,52393-52392-52394-49200-49196-49192-49188-49172-49162-159-107-57-65413-196-136-129-49177-167-109-58-197-137-157-61-53-192-132-49199-49195-49191-49187-49171-49161-158-103-51-190-69-49176-166-108-52-191-70-156-60-47-186-65-49169-49159-49174-24-5-4-49170-49160-22-49175-27-10-255,11-10-35-13,29-23-24-25,0
+**************************************************
+aNULL
+Dropper
+STRING VIEW LOOKUP: Cipher suites that don't do any server authentication. Not enabled by DEFAULT. Beware of man-in-the-middle attacks
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher aNULL
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002270080
+Setting socket fd 3 to ssl object
+send 0x600003570000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600002270080
+Server: 
+JA3: e799ba36448ad0a9cecd2d9391dbfc89JA3 FULL: 771,49177-167-109-58-197-137-49176-166-108-52-191-70-49174-24-49175-27-49173-255,11-10-35-13,29-23-24-25,0
+**************************************************
+aRSA
+Dropper
+STRING VIEW LOOKUP: Cipher suites using RSA server authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher aRSA
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600001c20080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x600000b20000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x600001c20080
+..Server: 
+JA3: 68398356bde0f3f14ea0e4b332428052JA3 FULL: 771,52392-52394-49200-49192-49172-159-107-57-196-136-157-61-53-192-132-49199-49191-49171-158-103-51-190-69-156-60-47-186-65-49169-5-4-49170-22-10-49168-59-2-1-255,11-10-35-13,29-23-24-25,0
+**************************************************
+CAMELLIA
+Dropper
+STRING VIEW LOOKUP: Cipher suites using Camellia for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher CAMELLIA
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002378080
+Setting socket fd 3 to ssl object
+send 0x600003478000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600002378080
+Server: 
+JA3: 84e83b92d854105441ebbc3fe92696acJA3 FULL: 771,196-136-197-137-192-132-190-69-191-70-186-65-255,35-13,,
+**************************************************
+CAMELLIA128
+Dropper
+STRING VIEW LOOKUP: Cipher suites using Camellia(128) for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher CAMELLIA128
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600000778000
+Setting socket fd 3 to ssl object
+send 0x60000107c000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600000778000
+Server: 
+JA3: bcebe41d20adac87e233d95bf522e207JA3 FULL: 771,190-69-191-70-186-65-255,35-13,,
+**************************************************
+CAMELLIA256
+Dropper
+STRING VIEW LOOKUP: Cipher suites using Camellia(256) for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher CAMELLIA256
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x6000015c4000
+Setting socket fd 3 to ssl object
+send 0x6000002c0000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x6000015c4000
+Server: 
+JA3: 0a5a61752ec692647af12e5ea85cebdbJA3 FULL: 771,196-136-197-137-192-132-255,35-13,,
+**************************************************
+CHACHA20
+Dropper
+STRING VIEW LOOKUP: Cipher suites using ChaCha20-Poly1305 for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher CHACHA20
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x60000010c080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x60000160c000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x60000010c080
+..Server: 
+JA3: de474ecb6b792b4579e270e917b24aabJA3 FULL: 771,52393-52392-52394-255,11-10-35-13,29-23-24-25,0
+**************************************************
+COMPLEMENTOFALL
+Dropper
+STRING VIEW LOOKUP: Cipher suites that are not included in ALL. Currently an alias for eNULL
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher COMPLEMENTOFALL
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002728000
+Setting socket fd 3 to ssl object
+send 0x60000302c000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600002728000
+Server: 
+JA3: b6f4d171e9201629bd9b16ccba2df5b9JA3 FULL: 771,49168-49158-65415-131-49173-59-2-1-255,11-10-35-13,29-23-24-25,0
+**************************************************
+COMPLEMENTOFDEFAULT
+Dropper
+STRING VIEW LOOKUP: Cipher suites that are included in ALLsv,  but not included in DEFAULT. Currently similar to aNULL:!eNULL except for the order of the cipher suites which are not selected
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher COMPLEMENTOFDEFAULT
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600000bbc000
+Setting socket fd 3 to ssl object
+send 0x600001cb8000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600000bbc000
+Server: 
+JA3: 737fd8c0670a2b7f14a0076abec29272JA3 FULL: 771,49177-167-109-58-197-137-49176-166-108-52-191-70-49174-24-49175-27-255,11-10-35-13,29-23-24-25,0
+**************************************************
+3DES
+Dropper
+STRING VIEW LOOKUP: Cipher suites using triple DES for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher 3DES
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002f28080
+Setting socket fd 3 to ssl object
+send 0x600003828000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600002f28080
+Server: 
+JA3: 77f894e383d35845c2b8df2f0b139c5cJA3 FULL: 771,49170-49160-22-49175-27-10-255,11-10-35-13,29-23-24-25,0
+**************************************************
+DH
+Dropper
+STRING VIEW LOOKUP: Cipher suites using ephemeral DH for key exchange
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher DH
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600003fd4000
+Setting socket fd 3 to ssl object
+send 0x6000028d0000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600003fd4000
+Server: 
+JA3: d437f01189bb2555aa9e1d85f5fc1e78JA3 FULL: 771,52394-159-107-57-196-136-167-109-58-197-137-158-103-51-190-69-166-108-52-191-70-24-22-27-255,35-13,,
+**************************************************
+DHE
+Dropper
+STRING VIEW LOOKUP: Cipher suites using ephemeral DH for key exchangesv, but excluding those that don't do any server authentication. Similar to DH:!aNULL except for the order of the cipher suites which are not selected
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher DHE
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600001aa0080
+Setting socket fd 3 to ssl object
+send 0x600000da0000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600001aa0080
+Server: 
+JA3: db9c04cb7105afdb027cef2912e5e482JA3 FULL: 771,52394-159-107-57-196-136-158-103-51-190-69-22-255,35-13,,
+**************************************************
+ECDH
+Dropper
+STRING VIEW LOOKUP: Cipher suites using ephemeral ECDH for key exchange
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher ECDH
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002090080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x600003790000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x600002090080
+..Server: 
+JA3: 05e748d4551428adae20c73db281de5eJA3 FULL: 771,52393-52392-49200-49196-49192-49188-49172-49162-49177-49199-49195-49191-49187-49171-49161-49176-49169-49159-49174-49170-49160-49175-49168-49158-49173-255,11-10-35-13,29-23-24-25,0
+**************************************************
+ECDHE
+Dropper
+STRING VIEW LOOKUP: Cipher suites using ephemeral ECDH for key exchangesv, but excluding those that don't do any server authentication. Similar to ECDH:!aNULL except for the order of the cipher suites which are not selected
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher ECDHE
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600003c8c000
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x600002b88000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x600003c8c000
+..Server: 
+JA3: 5087bde407ae73554d0e8d87a419551dJA3 FULL: 771,52393-52392-49200-49196-49192-49188-49172-49162-49199-49195-49191-49187-49171-49161-49169-49159-49170-49160-49168-49158-255,11-10-35-13,29-23-24-25,0
+**************************************************
+ECDSA
+Dropper
+STRING VIEW LOOKUP: An alias for aECDSA
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher ECDSA
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600001ed8000
+Setting socket fd 3 to ssl object
+send 0x6000009dc000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600001ed8000
+Server: 
+JA3: 76e5ec44b462a6657bfd37ec8a3d56edJA3 FULL: 771,52393-49196-49188-49162-49195-49187-49161-49159-49160-49158-255,11-10-35-13,29-23-24-25,0
+**************************************************
+eNULL
+Dropper
+STRING VIEW LOOKUP: Cipher suites that do not use any encryption. Not enabled by DEFAULTsv, and not even included in ALL
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher eNULL
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002f10080
+Setting socket fd 3 to ssl object
+send 0x600003810000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600002f10080
+Server: 
+JA3: b6f4d171e9201629bd9b16ccba2df5b9JA3 FULL: 771,49168-49158-65415-131-49173-59-2-1-255,11-10-35-13,29-23-24-25,0
+**************************************************
+GOST89MAC
+Dropper
+STRING VIEW LOOKUP: Cipher suites using GOST 28147-89 for message authentication instead of HMAC
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher GOST89MAC
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600001b08080
+Setting socket fd 3 to ssl object
+send 0x600000c08000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600001b08080
+Server: 
+JA3: bc01ba3b14eff0fcfd2f040ec744c4d1JA3 FULL: 771,65413-129-255,35-13,,
+**************************************************
+GOST94
+Dropper
+STRING VIEW LOOKUP: Cipher suites using HMAC based on GOST R 34.11-94 for message authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher GOST94
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x6000016f4080
+Setting socket fd 3 to ssl object
+send 0x6000001f4000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x6000016f4080
+Server: 
+JA3: 2dc41baf7b74051c45337e94b06e4a7fJA3 FULL: 771,131-255,35-13,,
+**************************************************
+HIGH
+Dropper
+STRING VIEW LOOKUP: Cipher suites of high strength
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher HIGH
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600001c04080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x600000b04000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x600001c04080
+..Server: 
+JA3: 7535dc1f883008194fa0d7969e92b7a0JA3 FULL: 771,52393-52392-52394-49200-49196-49192-49188-49172-49162-159-107-57-65413-196-136-129-49177-167-109-58-197-137-157-61-53-192-132-49199-49195-49191-49187-49171-49161-158-103-51-190-69-49176-166-108-52-191-70-156-60-47-186-65-255,11-10-35-13,29-23-24-25,0
+**************************************************
+kGOST
+Dropper
+STRING VIEW LOOKUP: Cipher suites using VKO 34.10 key exchangesv,  specified in RFC 4357
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher kGOST
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002e80080
+Setting socket fd 3 to ssl object
+send 0x600003980000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600002e80080
+Server: 
+JA3: ea11b85f9d068c085ecc0d7a899d302eJA3 FULL: 771,65413-129-65415-131-255,35-13,,
+**************************************************
+kRSA
+Dropper
+STRING VIEW LOOKUP: Cipher suites using RSA key exchange
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher kRSA
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x6000032cc080
+Setting socket fd 3 to ssl object
+send 0x6000025cc000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x6000032cc080
+Server: 
+JA3: 93cb2a81bebb03acf9bdb86496b29e86JA3 FULL: 771,157-61-53-192-132-156-60-47-186-65-5-4-10-59-2-1-255,35-13,,
+**************************************************
+LOW
+Dropper
+STRING VIEW LOOKUP: Cipher suites of low strength
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher LOW
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x6000005c4000
+Setting socket fd 3 to ssl object
+send 0x6000012c0000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x6000005c4000
+Server: 
+JA3: 9f6375c4d96eb600bec75878e9e37891JA3 FULL: 771,49169-49159-49174-24-5-4-255,11-10-35-13,29-23-24-25,0
+**************************************************
+MD5
+Dropper
+STRING VIEW LOOKUP: Cipher suites using MD5 for message authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher MD5
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600001a04080
+Setting socket fd 3 to ssl object
+send 0x600000d04000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600001a04080
+Server: 
+JA3: aced0a69b69caf2a002e4c69c32b00acJA3 FULL: 771,24-4-1-255,35-13,,
+**************************************************
+MEDIUM
+Dropper
+STRING VIEW LOOKUP: Cipher suites of medium strength
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher MEDIUM
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x6000000c4080
+Setting socket fd 3 to ssl object
+send 0x6000017c4000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x6000000c4080
+Server: 
+JA3: 77f894e383d35845c2b8df2f0b139c5cJA3 FULL: 771,49170-49160-22-49175-27-10-255,11-10-35-13,29-23-24-25,0
+**************************************************
+NULL
+Dropper
+STRING VIEW LOOKUP: An alias for eNULL
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher NULL
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600001750080
+Setting socket fd 3 to ssl object
+send 0x600000050000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600001750080
+Server: 
+JA3: b6f4d171e9201629bd9b16ccba2df5b9JA3 FULL: 771,49168-49158-65415-131-49173-59-2-1-255,11-10-35-13,29-23-24-25,0
+**************************************************
+RC4
+Dropper
+STRING VIEW LOOKUP: Cipher suites using RC4 for symmetric encryption
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher RC4
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x6000026fc000
+Setting socket fd 3 to ssl object
+send 0x6000031f8000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x6000026fc000
+Server: 
+JA3: 9f6375c4d96eb600bec75878e9e37891JA3 FULL: 771,49169-49159-49174-24-5-4-255,11-10-35-13,29-23-24-25,0
+**************************************************
+RSA
+Dropper
+STRING VIEW LOOKUP: Cipher suites using RSA for both key exchange and server authentication. Equivalent to kRSA+aRSA
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher RSA
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002bec000
+Setting socket fd 3 to ssl object
+send 0x600003ce8000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600002bec000
+Server: 
+JA3: 93cb2a81bebb03acf9bdb86496b29e86JA3 FULL: 771,157-61-53-192-132-156-60-47-186-65-5-4-10-59-2-1-255,35-13,,
+**************************************************
+SHA
+Dropper
+STRING VIEW LOOKUP: An alias for SHA1
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher SHA
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x6000014e0000
+Setting socket fd 3 to ssl object
+send 0x6000003e4000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x6000014e0000
+Server: 
+JA3: fab83e69313685368bf90a2dd9781a74JA3 FULL: 771,49172-49162-57-136-49177-58-137-53-132-49171-49161-51-69-49176-52-70-47-65-49169-49159-49174-5-49170-49160-22-49175-27-10-49168-49158-49173-2-255,11-10-35-13,29-23-24-25,0
+**************************************************
+SHA1
+Dropper
+STRING VIEW LOOKUP: Cipher suites using SHA1 for message authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher SHA1
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600001b18080
+Setting socket fd 3 to ssl object
+send 0x600000c18000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600001b18080
+Server: 
+JA3: fab83e69313685368bf90a2dd9781a74JA3 FULL: 771,49172-49162-57-136-49177-58-137-53-132-49171-49161-51-69-49176-52-70-47-65-49169-49159-49174-5-49170-49160-22-49175-27-10-49168-49158-49173-2-255,11-10-35-13,29-23-24-25,0
+**************************************************
+SHA256
+Dropper
+STRING VIEW LOOKUP: Cipher suites using SHA256 for message authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher SHA256
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002a3c080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x600003d3c000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x600002a3c080
+..Server: 
+JA3: 24e4da5b23e984fcfd6cadc1e486d0b5JA3 FULL: 771,107-196-109-197-61-192-49191-49187-103-190-108-191-60-186-59-255,11-10-35-13,29-23-24-25,0
+**************************************************
+SHA384
+Dropper
+STRING VIEW LOOKUP: Cipher suites using SHA384 for message authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher SHA384
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002a60080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x600003d60000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x600002a60080
+..Server: 
+JA3: 70bafac4de5b11307afe289756931d32JA3 FULL: 771,49192-49188-255,11-10-35-13,29-23-24-25,0
+**************************************************
+SSLv3
+Dropper
+STRING VIEW LOOKUP: An alias for TLSv1
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher SSLv3
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002938080
+Setting socket fd 3 to ssl object
+send 0x600003e38000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600002938080
+Server: 
+JA3: 7f72adc8169d88009bdd7541701a12bdJA3 FULL: 771,49172-49162-57-65413-136-129-49177-58-137-53-132-49171-49161-51-69-49176-52-70-47-65-49169-49159-49174-24-5-4-49170-49160-22-49175-27-10-49168-49158-65415-131-49173-2-1-255,11-10-35-13,29-23-24-25,0
+**************************************************
+STREEBOG256
+Dropper
+STRING VIEW LOOKUP: Cipher suites using STREEBOG256 for message authentication
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher STREEBOG256
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x6000012d8080
+Setting socket fd 3 to ssl object
+send 0x6000005d8000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x6000012d8080
+Server: 
+JA3: ed7390911a79a7296314f317bfd99456JA3 FULL: 771,65415-255,35-13,,
+**************************************************
+TLSv1
+Dropper
+STRING VIEW LOOKUP: Cipher suites usable with the TLSv1.0sv,  TLSv1.1sv, and TLSv1.2 protocols
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher TLSv1
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600001848080
+Setting socket fd 3 to ssl object
+send 0x600000f48000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600001848080
+Server: 
+JA3: 7f72adc8169d88009bdd7541701a12bdJA3 FULL: 771,49172-49162-57-65413-136-129-49177-58-137-53-132-49171-49161-51-69-49176-52-70-47-65-49169-49159-49174-24-5-4-49170-49160-22-49175-27-10-49168-49158-65415-131-49173-2-1-255,11-10-35-13,29-23-24-25,0
+**************************************************
+TLSv1.2
+Dropper
+STRING VIEW LOOKUP: Cipher suites for the TLSv1.2 protocol
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher TLSv1.2
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600001e40080
+Setting socket fd 3 to ssl object
+SSL_connect get_error: [0]
+send 0x600000940000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:00000000:lib(0):func(0):reason(0)
+recv 0x600001e40080
+..Server: 
+JA3: b3ed3ab15b9d78a681651f34b6f48475JA3 FULL: 771,52393-52392-52394-49200-49196-49192-49188-159-107-196-167-109-197-157-61-192-49199-49195-49191-49187-158-103-190-166-108-191-156-60-186-59-255,11-10-35-13,29-23-24-25,0
+**************************************************
+TLSv1.3
+Dropper
+STRING VIEW LOOKUP: Cipher suites for the TLSv1.3 protocol. If the control string selects at least one cipher suite but neither contains the word TLSv1.3 nor specifically includes nor excludes any TLSv1.3 cipher suitessv, all the TLSv1.3 cipher suites are made available too
+Socket connected m_sockfd: 3
+set_tls_version 1.3
+set_tls_cipher TLSv1.3
+Read cert file into vector
+set_tls_cert_buff size: 2904
+tls_connect 0x600002a9c080
+Setting socket fd 3 to ssl object
+send 0x600003d9c000
+ 0
+requestStr: 
+GET /index.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Content-Length: 
+
+
+error:140040E5:SSL routines:CONNECT_CR_SRVR_HELLO:ssl handshake failure
+recv 0x600002a9c080
+Server: 
+JA3: 223994e1b034987331073deb574c93aeJA3 FULL: 771,,35-13,,
+**************************************************
